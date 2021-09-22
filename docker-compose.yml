@@ -1,0 +1,9 @@
+version: '3.5'
+services:
+  php:
+    container_name: branas-curso-php
+    image: branas-curso/php
+    build: ./
+    volumes:
+      - ./:/var/www/html
+
